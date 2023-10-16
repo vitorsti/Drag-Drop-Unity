@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: panel5
+  Id: 5
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -635,7 +635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 839b0c30ecdacd043aea5317c6b7bea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: ChooseLanguage
+  scene: EnumBiology2
 --- !u!114 &335557920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2200,7 +2200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: panel4
+  Id: 4
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -3328,7 +3328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: panel3
+  Id: 3
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -3753,7 +3753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: panel1
+  Id: 1
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -3985,7 +3985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: panel2
+  Id: 2
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0

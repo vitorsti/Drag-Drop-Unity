@@ -60,8 +60,10 @@ public class DragDrop : MonoBehaviour
 
         for(int i = 1; i < PanelAnswers.Length + 1; i++)
         {
-            if (DragDropManager.GetPanelObject("panel" + i) == PanelAnswers[i - 1])
+            Debug.Log(DragDropManager.GetPanelObject(i.ToString()));
+            if (DragDropManager.GetPanelObject(i.ToString()) == PanelAnswers[i - 1])
             {
+                
                 rights++;
             }
         }
@@ -71,7 +73,7 @@ public class DragDrop : MonoBehaviour
 
     public void CheckWin()
     {
-        Debug.Log(playerCurrentLife);
+        Debug.Log(rights);
         if(rights >= PanelAnswers.Length)
         {
             pa.PlaySFX(3);
