@@ -60,10 +60,9 @@ public class DragDrop : MonoBehaviour
 
         for(int i = 1; i < PanelAnswers.Length + 1; i++)
         {
-            Debug.Log(DragDropManager.GetPanelObject(i.ToString()));
+            Debug.Log("Painel " + i + "tem " + DragDropManager.GetPanelObject(i.ToString()) + "e resposta é " + PanelAnswers[i - 1].ToString());
             if (DragDropManager.GetPanelObject(i.ToString()) == PanelAnswers[i - 1])
             {
-                
                 rights++;
             }
         }
