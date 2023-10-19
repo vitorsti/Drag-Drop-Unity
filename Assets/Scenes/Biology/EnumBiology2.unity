@@ -156,7 +156,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1645,16 +1645,17 @@ MonoBehaviour:
   - {fileID: 363113986}
   - {fileID: 236457164}
   - {fileID: 443615606}
+  - {fileID: 161171002}
   - {fileID: 1093126795}
   - {fileID: 143562805}
   - {fileID: 947307805}
   - {fileID: 1090058182}
   - {fileID: 251192074}
   - {fileID: 1178838087}
-  - {fileID: 55575931}
-  - {fileID: 1683124574}
-  - {fileID: 1212745769}
   - {fileID: 984608563}
+  - {fileID: 55575931}
+  - {fileID: 1212745769}
+  - {fileID: 1683124574}
   - {fileID: 633823085}
   - {fileID: 351524402}
   - {fileID: 2136014087}
@@ -1665,29 +1666,28 @@ MonoBehaviour:
   - {fileID: 948520800}
   - {fileID: 1305265956}
   - {fileID: 1500851266}
-  - {fileID: 161171002}
   PanelAnswers:
-  - 5
-  - Relaxado
-  - Relaxado em enchimento
-  - Abertas
-  - Fechadas
   - 4
-  - Contracao
+  - Relaxado
   - Relaxado em enchimento
   - Abertas
   - Fechadas
   - 3
-  - Relaxado
-  - Em contracao isovulmetrica
-  - Fechadas
+  - Contracao
+  - Relaxado em enchimento
+  - Abertas
   - Fechadas
   - 2
+  - Relaxado
+  - Em contracao isovolumetrica
+  - Fechadas
+  - Fechadas
+  - 1
   - Relaxado
   - Em contracao ejecao
   - Fechadas
   - Abertas
-  - 1
+  - 0
   - Relaxado
   - Em relaxamento isovolumetrico
   - Fechadas
@@ -6623,7 +6623,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 15
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8839,10 +8839,10 @@ RectTransform:
   - {fileID: 1090058181}
   - {fileID: 251192073}
   - {fileID: 1178838086}
-  - {fileID: 55575930}
-  - {fileID: 1683124573}
-  - {fileID: 1212745768}
   - {fileID: 984608562}
+  - {fileID: 55575930}
+  - {fileID: 1212745768}
+  - {fileID: 1683124573}
   - {fileID: 633823084}
   - {fileID: 351524401}
   - {fileID: 2136014086}
@@ -11148,7 +11148,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
