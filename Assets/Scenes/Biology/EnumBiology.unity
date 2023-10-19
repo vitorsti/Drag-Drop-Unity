@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 35757047}
   m_Layer: 5
   m_Name: Object4
-  m_TagString: Untagged
+  m_TagString: 3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 2
+  Id: 3
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 5
+  Id: 4
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 236457164}
   m_Layer: 5
   m_Name: Object3
-  m_TagString: Untagged
+  m_TagString: 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -451,7 +451,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 3
+  Id: 2
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -569,11 +569,11 @@ MonoBehaviour:
   - {fileID: 35757047}
   - {fileID: 1146787250}
   PanelAnswers:
-  - 1
-  - 2
-  - 3
   - 4
-  - 5
+  - 3
+  - 2
+  - 1
+  - 0
   delayBetweenOperations: 0.5
   timer: 0
   timerScale: -1
@@ -732,7 +732,7 @@ GameObject:
   - component: {fileID: 363113986}
   m_Layer: 5
   m_Name: Object2
-  m_TagString: Untagged
+  m_TagString: 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -812,7 +812,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 4
+  Id: 1
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -1488,7 +1488,7 @@ GameObject:
   - component: {fileID: 660962401}
   m_Layer: 5
   m_Name: Object1
-  m_TagString: Untagged
+  m_TagString: 0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1568,7 +1568,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 5
+  Id: 0
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -2028,7 +2028,7 @@ GameObject:
   - component: {fileID: 1146787250}
   m_Layer: 5
   m_Name: Object5
-  m_TagString: Untagged
+  m_TagString: 4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2070,7 +2070,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 1
+  Id: 4
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -2200,7 +2200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 4
+  Id: 3
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -3328,7 +3328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 3
+  Id: 2
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -3753,7 +3753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 1
+  Id: 0
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -3985,7 +3985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 2
+  Id: 1
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0

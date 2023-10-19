@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - Contracao
+  - Relaxado
+  - Abertas
+  - Fechadas
+  - Relaxado em enchimento
+  - Em relaxamento isovolumetrico
+  - Em contracao ejecao
+  - Em contracao isovolumetrica
+  - 0
   layers:
   - Default
   - TransparentFX

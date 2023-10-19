@@ -9,7 +9,7 @@ public class PlayAudio : MonoBehaviour
 
     public void PlaySFX(int SFXIndex)
     {
-        Debug.Log("played " + SFXIndex);
+        //Debug.Log("played " + SFXIndex);
         src.clip = sfx[SFXIndex];
         src.Play();
     }

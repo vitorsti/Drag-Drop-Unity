@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 55575931}
   m_Layer: 5
   m_Name: Object2 (2)
-  m_TagString: Untagged
+  m_TagString: Relaxado em enchimento
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,7 +156,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 82703541}
   m_Layer: 5
   m_Name: Object1 (4)
-  m_TagString: Untagged
+  m_TagString: Fechadas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -292,7 +292,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -316,7 +316,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 17
+  Id: 20
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -532,7 +532,7 @@ GameObject:
   - component: {fileID: 143562805}
   m_Layer: 5
   m_Name: Object2 (1)
-  m_TagString: Untagged
+  m_TagString: Relaxado
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -550,7 +550,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -574,7 +574,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 7
+  Id: 6
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 161171002}
   m_Layer: 5
   m_Name: Object3 (2)
-  m_TagString: Untagged
+  m_TagString: 4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -808,7 +808,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 25
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -832,7 +832,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 5
+  Id: 4
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -1097,7 +1097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 12
+  Id: 11
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -1158,7 +1158,7 @@ GameObject:
   - component: {fileID: 236457164}
   m_Layer: 5
   m_Name: Object3
-  m_TagString: Untagged
+  m_TagString: 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 3
+  Id: 2
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -1294,7 +1294,7 @@ GameObject:
   - component: {fileID: 251192074}
   m_Layer: 5
   m_Name: Object3 (5)
-  m_TagString: Untagged
+  m_TagString: Relaxado
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1312,7 +1312,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1336,7 +1336,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 7
+  Id: 9
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -1668,30 +1668,30 @@ MonoBehaviour:
   - {fileID: 161171002}
   PanelAnswers:
   - 5
-  - 7
-  - 11
-  - 16
-  - 17
+  - Relaxado
+  - Relaxado em enchimento
+  - Abertas
+  - Fechadas
   - 4
-  - 6
-  - 13
-  - 16
-  - 17
+  - Contracao
+  - Relaxado em enchimento
+  - Abertas
+  - Fechadas
   - 3
-  - 7
-  - 15
-  - 17
-  - 17
+  - Relaxado
+  - Em contracao isovulmetrica
+  - Fechadas
+  - Fechadas
   - 2
-  - 7
-  - 14
-  - 17
-  - 16
+  - Relaxado
+  - Em contracao ejecao
+  - Fechadas
+  - Abertas
   - 1
-  - 7
-  - 12
-  - 17
-  - 17
+  - Relaxado
+  - Em relaxamento isovolumetrico
+  - Fechadas
+  - Fechadas
   delayBetweenOperations: 0.5
   timer: 0
   timerScale: -1
@@ -1782,7 +1782,7 @@ GameObject:
   - component: {fileID: 351524402}
   m_Layer: 5
   m_Name: Object2 (3)
-  m_TagString: Untagged
+  m_TagString: Fechadas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1800,7 +1800,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1824,7 +1824,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 17
+  Id: 16
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -1986,7 +1986,7 @@ GameObject:
   - component: {fileID: 363113986}
   m_Layer: 5
   m_Name: Object2
-  m_TagString: Untagged
+  m_TagString: 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2066,7 +2066,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 2
+  Id: 1
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -2659,7 +2659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 23
+  Id: 22
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -2720,7 +2720,7 @@ GameObject:
   - component: {fileID: 443615606}
   m_Layer: 5
   m_Name: Object3 (1)
-  m_TagString: Untagged
+  m_TagString: 3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2762,7 +2762,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 4
+  Id: 3
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -2892,7 +2892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 18
+  Id: 17
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -3123,7 +3123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 7
+  Id: 6
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -3342,7 +3342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 6
+  Id: 5
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -3439,7 +3439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 24
+  Id: 23
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -3885,7 +3885,7 @@ GameObject:
   - component: {fileID: 633823085}
   m_Layer: 5
   m_Name: Object1 (3)
-  m_TagString: Untagged
+  m_TagString: Abertas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3903,7 +3903,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3927,7 +3927,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 16
+  Id: 15
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -4695,7 +4695,7 @@ GameObject:
   - component: {fileID: 660962401}
   m_Layer: 5
   m_Name: Object1
-  m_TagString: Untagged
+  m_TagString: 0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4775,7 +4775,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 1
+  Id: 0
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -5124,7 +5124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 5
+  Id: 4
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -5221,7 +5221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 8
+  Id: 7
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -5540,7 +5540,7 @@ GameObject:
   - component: {fileID: 800311005}
   m_Layer: 5
   m_Name: Object3 (11)
-  m_TagString: Untagged
+  m_TagString: Abertas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5558,7 +5558,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5582,7 +5582,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 16
+  Id: 19
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -5712,7 +5712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 16
+  Id: 15
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -5809,7 +5809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 14
+  Id: 13
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -5906,7 +5906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 11
+  Id: 10
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -6003,7 +6003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 20
+  Id: 19
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -6064,7 +6064,7 @@ GameObject:
   - component: {fileID: 947307805}
   m_Layer: 5
   m_Name: Object3 (3)
-  m_TagString: Untagged
+  m_TagString: Relaxado
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6082,7 +6082,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6200,7 +6200,7 @@ GameObject:
   - component: {fileID: 948520800}
   m_Layer: 5
   m_Name: Object3 (12)
-  m_TagString: Untagged
+  m_TagString: Fechadas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6218,7 +6218,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6242,7 +6242,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 17
+  Id: 22
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -6605,7 +6605,7 @@ GameObject:
   - component: {fileID: 984608563}
   m_Layer: 5
   m_Name: Object3 (8)
-  m_TagString: Untagged
+  m_TagString: Em relaxamento isovolumetrico
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6623,7 +6623,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6647,7 +6647,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 15
+  Id: 11
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -6899,7 +6899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 10
+  Id: 9
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -7131,7 +7131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 2
+  Id: 1
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -7192,7 +7192,7 @@ GameObject:
   - component: {fileID: 1090058182}
   m_Layer: 5
   m_Name: Object3 (4)
-  m_TagString: Untagged
+  m_TagString: Relaxado
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7210,7 +7210,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7234,7 +7234,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 7
+  Id: 8
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -7328,7 +7328,7 @@ GameObject:
   - component: {fileID: 1093126795}
   m_Layer: 5
   m_Name: Object1 (1)
-  m_TagString: Untagged
+  m_TagString: Contracao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7346,7 +7346,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7370,7 +7370,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 6
+  Id: 5
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -7500,7 +7500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 21
+  Id: 20
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -7817,7 +7817,7 @@ GameObject:
   - component: {fileID: 1178838087}
   m_Layer: 5
   m_Name: Object1 (2)
-  m_TagString: Untagged
+  m_TagString: Relaxado em enchimento
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7835,7 +7835,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7859,7 +7859,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 11
+  Id: 10
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -8088,7 +8088,7 @@ GameObject:
   - component: {fileID: 1212745769}
   m_Layer: 5
   m_Name: Object3 (7)
-  m_TagString: Untagged
+  m_TagString: Em contracao ejecao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8106,7 +8106,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8130,7 +8130,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 14
+  Id: 13
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -8832,6 +8832,7 @@ RectTransform:
   - {fileID: 363113983}
   - {fileID: 236457161}
   - {fileID: 443615605}
+  - {fileID: 161171001}
   - {fileID: 1093126794}
   - {fileID: 143562804}
   - {fileID: 947307804}
@@ -8852,7 +8853,6 @@ RectTransform:
   - {fileID: 948520799}
   - {fileID: 1305265955}
   - {fileID: 1500851265}
-  - {fileID: 161171001}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8998,7 +8998,7 @@ GameObject:
   - component: {fileID: 1305265956}
   m_Layer: 5
   m_Name: Object3 (13)
-  m_TagString: Untagged
+  m_TagString: Fechadas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9016,7 +9016,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9040,7 +9040,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 17
+  Id: 23
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -9336,7 +9336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 17
+  Id: 16
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -9433,7 +9433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 25
+  Id: 24
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -9652,7 +9652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 13
+  Id: 12
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -9884,7 +9884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 9
+  Id: 8
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -9981,7 +9981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 3
+  Id: 2
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -10234,7 +10234,7 @@ GameObject:
   - component: {fileID: 1500851266}
   m_Layer: 5
   m_Name: Object3 (14)
-  m_TagString: Untagged
+  m_TagString: Abertas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10252,7 +10252,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10276,7 +10276,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 16
+  Id: 24
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -10505,7 +10505,7 @@ GameObject:
   - component: {fileID: 1567803334}
   m_Layer: 5
   m_Name: Object3 (10)
-  m_TagString: Untagged
+  m_TagString: Fechadas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10523,7 +10523,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10547,7 +10547,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 17
+  Id: 18
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -11069,7 +11069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 19
+  Id: 18
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -11130,7 +11130,7 @@ GameObject:
   - component: {fileID: 1683124574}
   m_Layer: 5
   m_Name: Object3 (6)
-  m_TagString: Untagged
+  m_TagString: Em contracao isovolumetrica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11148,7 +11148,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11172,7 +11172,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 13
+  Id: 14
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -11906,7 +11906,7 @@ GameObject:
   - component: {fileID: 1946861920}
   m_Layer: 5
   m_Name: Object2 (4)
-  m_TagString: Untagged
+  m_TagString: Fechadas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11924,7 +11924,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11948,7 +11948,7 @@ MonoBehaviour:
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
-  Id: 17
+  Id: 21
   UserControl: 1
   AIControl: 1
   ReturnSmoothly: 1
@@ -12344,7 +12344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 1
+  Id: 0
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -12599,7 +12599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 22
+  Id: 21
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -13075,7 +13075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 15
+  Id: 14
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0
@@ -13258,7 +13258,7 @@ GameObject:
   - component: {fileID: 2136014087}
   m_Layer: 5
   m_Name: Object3 (9)
-  m_TagString: Untagged
+  m_TagString: Fechadas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13276,7 +13276,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1279812182}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13430,7 +13430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Id: 4
+  Id: 3
   ObjectPosition: 0
   LockObject: 0
   ObjectReplacement: 0

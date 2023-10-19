@@ -57,22 +57,29 @@ public class DragDrop : MonoBehaviour
 
     public void CheckAnswers()
     {
-
-        for(int i = 1; i < PanelAnswers.Length + 1; i++)
+        
+        for(int i = 0; i < PanelAnswers.Length; i++)
         {
-            Debug.Log("Painel " + i + "tem " + DragDropManager.GetPanelObject(i.ToString()) + "e resposta é " + PanelAnswers[i - 1].ToString());
-            if (DragDropManager.GetPanelObject(i.ToString()) == PanelAnswers[i - 1])
+            //Debug.Log("Painel " + i + " tem " + AllObjects[int.Parse(DragDropManager.GetPanelObject(i.ToString()))].gameObject.tag + " e a resposta é " + PanelAnswers[i].ToString());
+            Debug.Log("Painel " + i + " tem objeto com id " + DragDropManager.GetPanelObject((i).ToString()) + "e tag: " + AllObjects[int.Parse(DragDropManager.GetPanelObject((i).ToString()))].gameObject.tag + " e a resposta é " + PanelAnswers[i].ToString());
+
+            if (PanelAnswers[i].ToString() == AllObjects[int.Parse(DragDropManager.GetPanelObject(i.ToString()))].gameObject.tag )
             {
                 rights++;
             }
         }
-
+        /*
+        for (int i = 1; i < AllObjects.Length + 1; i++)
+        {
+            Debug.Log("Objeto " + AllObjects[i - 1].GetComponent<ObjectSettings>().Id.ToString() + " está no painel " + DragDropManager.GetObjectPanel(AllObjects[i - 1].GetComponent<ObjectSettings>().Id.ToString()) + " e a resposta para este painel é " + PanelAnswers[int.Parse(DragDropManager.GetObjectPanel(AllObjects[i - 1].GetComponent<ObjectSettings>().Id.ToString()))-1]);
+        }
+        */
         CheckWin();
     }
 
     public void CheckWin()
     {
-        Debug.Log(rights);
+        Debug.Log("Acertos : " + rights);
         if(rights >= PanelAnswers.Length)
         {
             pa.PlaySFX(3);
