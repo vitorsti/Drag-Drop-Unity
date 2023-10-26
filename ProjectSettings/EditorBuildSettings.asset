@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Biology/ChooseLanguage.unity
-    guid: ad11a5491ccda5a429690be3fe5f29c5
+    path: Assets/Scenes/OsmoseTonicidade/ChooseLanguageOs.unity
+    guid: 9e2323f804b7da84198062a6311f4428
   - enabled: 1
-    path: Assets/Scenes/Biology/WelcomeSceneBio.unity
-    guid: 91119ce9dcb59974da25204d8e4a7c90
+    path: Assets/Scenes/OsmoseTonicidade/WelcomeSceneBioOs.unity
+    guid: cdaaed91cedd7d64aa884a450080f5e2
   - enabled: 1
-    path: Assets/Scenes/Biology/EnumBiology.unity
-    guid: ca5477e048f699148b21619c8c6e7e03
+    path: Assets/Scenes/OsmoseTonicidade/EnumBiologyOs.unity
+    guid: 4ae9bc78c430c8744b1f1cf56d0c9c9b
   - enabled: 1
-    path: Assets/Scenes/Biology/EnumBiology2.unity
-    guid: d08d27201912d1e44bddd6c7a0fedc48
+    path: Assets/Scenes/OsmoseTonicidade/EnumBiology2Os.unity
+    guid: 0a00ce351207f6d459aef6e57e01ac3b
   m_configObjects: {}

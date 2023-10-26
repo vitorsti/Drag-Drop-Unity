@@ -9,9 +9,12 @@ public class UILanguage : MonoBehaviour
 
     [SerializeField] string ptText, enText, esText;
 
-
     private void Start()
     {
+        ptText = HandleText(ptText);
+        enText = HandleText(enText);
+        esText = HandleText(esText);
+
         switch (GameManager.instance.getLanguague())
         {
             case "pt":
@@ -31,4 +34,11 @@ public class UILanguage : MonoBehaviour
         }
     }
 
+
+    private string HandleText(string originalText)
+    {
+        string newText = originalText.Replace("espaco", "\n"); ;
+
+        return newText;
+    }
 }
