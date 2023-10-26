@@ -61,20 +61,29 @@ public class DragDrop : MonoBehaviour
         for(int i = 0; i < PanelAnswers.Length; i++)
         {
             //Debug.Log("Painel " + i + " tem " + AllObjects[int.Parse(DragDropManager.GetPanelObject(i.ToString()))].gameObject.tag + " e a resposta é " + PanelAnswers[i].ToString());
-            Debug.Log("Painel " + i + " tem objeto com id " + DragDropManager.GetPanelObject((i).ToString()) + "e tag: " + AllObjects[int.Parse(DragDropManager.GetPanelObject((i).ToString()))].gameObject.tag + " e a resposta é " + PanelAnswers[i].ToString());
+            //Debug.Log("Painel " + i + " tem objeto com id " + DragDropManager.GetPanelObject((i).ToString()) + "e tag: " + AllObjects[int.Parse(DragDropManager.GetPanelObject((i).ToString()))].gameObject.tag + " e a resposta é " + PanelAnswers[i].ToString());
+
+            //pega o objeto no painel
+            //pega a tag dele a partir do id 
 
             if (PanelAnswers[i].ToString() == AllObjects[int.Parse(DragDropManager.GetPanelObject(i.ToString()))].gameObject.tag )
             {
                 rights++;
             }
         }
-        /*
+
+
+        CheckWin();
+    }
+
+    private void PrintDebug()
+    {
+        
         for (int i = 1; i < AllObjects.Length + 1; i++)
         {
             Debug.Log("Objeto " + AllObjects[i - 1].GetComponent<ObjectSettings>().Id.ToString() + " está no painel " + DragDropManager.GetObjectPanel(AllObjects[i - 1].GetComponent<ObjectSettings>().Id.ToString()) + " e a resposta para este painel é " + PanelAnswers[int.Parse(DragDropManager.GetObjectPanel(AllObjects[i - 1].GetComponent<ObjectSettings>().Id.ToString()))-1]);
         }
-        */
-        CheckWin();
+        
     }
 
     public void CheckWin()
@@ -108,14 +117,17 @@ public class DragDrop : MonoBehaviour
 
     public bool CheckDrop()
     {
+        int counter = 0;
+
         foreach (ObjectSettings obj in AllObjects)
         {
-            if (!obj.Dropped)
+            if (obj.Dropped)
             {
-                return false;
+                counter++;
             }
         }
-        return true;
+
+        return counter >= PanelAnswers.Length;
     }
 
     private void LoseLife()

@@ -18,6 +18,8 @@ TagManager:
   - Em contracao ejecao
   - Em contracao isovolumetrica
   - 0
+  - hipo
+  - iso
   layers:
   - Default
   - TransparentFX
