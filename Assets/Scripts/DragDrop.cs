@@ -103,10 +103,12 @@ public class DragDrop : MonoBehaviour
             if(playerCurrentLife > 1)
             {
                 uiMan.ShowErrorMessage();
+                uiMan.UpdateWin(false);
                 LoseLife();
             }
             else
             {
+                uiMan.UpdateWin(false);
                 LoseLife();
                 RestartGame();
             }

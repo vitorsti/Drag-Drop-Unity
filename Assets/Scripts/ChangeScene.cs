@@ -13,6 +13,11 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 
+    public void GoToMenu()
+    {
+        SceneManager.LoadScene("ChooseLanguageOs");
+    }
+
     public void ChangeNameScene(string scene)
     {
         this.scene = scene;

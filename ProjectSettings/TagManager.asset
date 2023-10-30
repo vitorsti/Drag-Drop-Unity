@@ -21,6 +21,9 @@ TagManager:
   - hipo
   - iso
   - hipe
+  - isosmotica
+  - hiposmotica
+  - hiperosmotica
   layers:
   - Default
   - TransparentFX

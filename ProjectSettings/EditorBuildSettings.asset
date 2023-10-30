@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/OsmoseTonicidade/WelcomeSceneBioOs.unity
     guid: cdaaed91cedd7d64aa884a450080f5e2
   - enabled: 1
-    path: Assets/Scenes/OsmoseTonicidade/EnumBiologyOs.unity
+    path: Assets/Scenes/OsmoseTonicidade/EnumBiologyOs 1.unity
     guid: 4ae9bc78c430c8744b1f1cf56d0c9c9b
   - enabled: 1
     path: Assets/Scenes/OsmoseTonicidade/EnumBiologyOs 2.unity
     guid: b9eba4aac5d048b4c83b3007b0a4a406
+  - enabled: 1
+    path: Assets/Scenes/OsmoseTonicidade/EnumBiologyOs 3.unity
+    guid: ce59a2edc2c12224aafb73cb1ea63d5b
   m_configObjects: {}

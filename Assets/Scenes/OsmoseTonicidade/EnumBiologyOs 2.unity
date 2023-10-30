@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 141981503}
   m_Layer: 5
   m_Name: iso (3)
-  m_TagString: iso
+  m_TagString: isosmotica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 78158665e2eae474f9c8b62bd16f6645, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 733acdca2269e054a933e89b57d8c0e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -757,9 +757,9 @@ MonoBehaviour:
   - {fileID: 973836856}
   - {fileID: 1805230153}
   PanelAnswers:
-  - hipo
-  - iso
-  - hipo
+  - hiposmotica
+  - isosmotica
+  - hiposmotica
   - hipo
   - iso
   - hipo
@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 839b0c30ecdacd043aea5317c6b7bea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: EnumBiology2Os
+  scene: EnumBiologyOs 3
 --- !u!114 &335557920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1216,11 +1216,11 @@ RectTransform:
   m_Father: {fileID: 575753845}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -392, y: -71}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -80.15, y: 107}
   m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &460687399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1482,7 +1482,7 @@ GameObject:
   - component: {fileID: 505752893}
   m_Layer: 5
   m_Name: hipo (2)
-  m_TagString: hipo
+  m_TagString: hiposmotica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1585,7 +1585,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0298b9c61aa72b6479b5a405d7ef2f85, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25332d4ee6989a54ab54a348e694f2a7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2175,7 +2175,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 2.798706, y: 43}
+  m_AnchoredPosition: {x: 35, y: 43}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &641348955
@@ -3424,7 +3424,7 @@ GameObject:
   - component: {fileID: 973836856}
   m_Layer: 5
   m_Name: hipe
-  m_TagString: hipe
+  m_TagString: hiperosmotica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3527,7 +3527,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 848e3b1dee605ff4cae35e366f8f58ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ce4211adf9807874eab82927e87a4afc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3849,7 +3849,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -174.00008, y: 211.00002}
+  m_AnchoredPosition: {x: -141.7987, y: 211.00002}
   m_SizeDelta: {x: 245.54999, y: -120}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1062842969
@@ -4295,7 +4295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -41.201294, y: 138.00002}
+  m_AnchoredPosition: {x: -41.201294, y: 173.00002}
   m_SizeDelta: {x: 105.39, y: 30}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1169114621
@@ -4344,7 +4344,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 335557919}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: GoToScene
+        m_MethodName: GoToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4971,7 +4971,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 910.9999, y: 138.00002}
+  m_AnchoredPosition: {x: 910.9999, y: 173}
   m_SizeDelta: {x: 105.39, y: 30}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1248767908
@@ -6056,7 +6056,7 @@ GameObject:
   - component: {fileID: 1583649321}
   m_Layer: 5
   m_Name: hipo (3)
-  m_TagString: hipo
+  m_TagString: hiposmotica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6159,7 +6159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0298b9c61aa72b6479b5a405d7ef2f85, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25332d4ee6989a54ab54a348e694f2a7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6796,7 +6796,7 @@ GameObject:
   - component: {fileID: 1805230153}
   m_Layer: 5
   m_Name: iso (4)
-  m_TagString: iso
+  m_TagString: isosmotica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6899,7 +6899,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 78158665e2eae474f9c8b62bd16f6645, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 733acdca2269e054a933e89b57d8c0e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7050,11 +7050,11 @@ RectTransform:
   m_Father: {fileID: 575753845}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -379.99997, y: -154.99995}
-  m_SizeDelta: {x: -1119.8927, y: -690.0603}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -189, y: -68}
+  m_SizeDelta: {x: 156.1073, y: 31.939697}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1832631367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7589,7 +7589,7 @@ GameObject:
   - component: {fileID: 2027522614}
   m_Layer: 5
   m_Name: hipe
-  m_TagString: hipe
+  m_TagString: hiperosmotica
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7692,7 +7692,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 848e3b1dee605ff4cae35e366f8f58ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ce4211adf9807874eab82927e87a4afc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7743,11 +7743,11 @@ RectTransform:
   m_Father: {fileID: 575753845}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -379.99997, y: -154.99995}
-  m_SizeDelta: {x: -1119.8927, y: -690.0603}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -197, y: -70}
+  m_SizeDelta: {x: 156.1073, y: 31.939697}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2043516311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7768,7 +7768,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You'll have to try again...
+  m_text: sssssssssssssssssssssss
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f74ab1e1722f3d340be7ba939b636f4d, type: 2}
   m_sharedMaterial: {fileID: 3291806623825060215, guid: f74ab1e1722f3d340be7ba939b636f4d, type: 2}
