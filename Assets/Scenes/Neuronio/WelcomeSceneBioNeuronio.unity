@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -724,42 +724,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainText: {fileID: 216046191}
-  ptText: "Bem vindo! O objetivo deste jogo sobre osmose e tonicidade \xE9 ajud\xE1-lo
-    a compreender os efeitos de solu\xE7\xF5es sobre o volume de nossas hem\xE1cias. 
-    espacoespaco Vamos usar 3 experimentos para integrar os conceitos de tonicidade,
-    osmolaridade e permeabilidade seletiva. espacoespaco Em cada experimento, ser\xE3o
-    apresentados tubos de ensaio, nos quais foram misturados 1 mL sangue heparinizado
-    e homogeneizado com 3 mL de diferentes solu\xE7\xF5es. espacoespaco Ap\xF3s homogeneizar
-    cada mistura, por invers\xE3o, todos os tubos foram centrifugados, separando
-    o sobrenadante (por\xE7\xE3o l\xEDquida superior) do precipitado (por\xE7\xE3o
-    s\xF3lida depositada no fundo de cada tubo). espacoespaco Convidamos voc\xEA
-    a analisar e comparar o volume do precipitado, entre os tubos, e classificar
-    as solu\xE7\xF5es quanto \xE0 tonicidade e osmolaridade, identificando seus efeitos
-    sobre o volume das hem\xE1cias. "
-  enText: "Bem vindo! O objetivo deste jogo sobre osmose e tonicidade \xE9 ajud\xE1-lo
-    a compreender os efeitos de solu\xE7\xF5es sobre o volume de nossas hem\xE1cias. 
-    espacoespaco Vamos usar 3 experimentos para integrar os conceitos de tonicidade,
-    osmolaridade e permeabilidade seletiva. espacoespaco Em cada experimento, ser\xE3o
-    apresentados tubos de ensaio, nos quais foram misturados 1 mL sangue heparinizado
-    e homogeneizado com 3 mL de diferentes solu\xE7\xF5es. espacoespaco Ap\xF3s homogeneizar
-    cada mistura, por invers\xE3o, todos os tubos foram centrifugados, separando
-    o sobrenadante (por\xE7\xE3o l\xEDquida superior) do precipitado (por\xE7\xE3o
-    s\xF3lida depositada no fundo de cada tubo). espacoespaco Convidamos voc\xEA
-    a analisar e comparar o volume do precipitado, entre os tubos, e classificar
-    as solu\xE7\xF5es quanto \xE0 tonicidade e osmolaridade, identificando seus efeitos
-    sobre o volume das hem\xE1cias. "
-  esText: "Bem vindo! O objetivo deste jogo sobre osmose e tonicidade \xE9 ajud\xE1-lo
-    a compreender os efeitos de solu\xE7\xF5es sobre o volume de nossas hem\xE1cias. 
-    espacoespaco Vamos usar 3 experimentos para integrar os conceitos de tonicidade,
-    osmolaridade e permeabilidade seletiva. espacoespaco Em cada experimento, ser\xE3o
-    apresentados tubos de ensaio, nos quais foram misturados 1 mL sangue heparinizado
-    e homogeneizado com 3 mL de diferentes solu\xE7\xF5es. espacoespaco Ap\xF3s homogeneizar
-    cada mistura, por invers\xE3o, todos os tubos foram centrifugados, separando
-    o sobrenadante (por\xE7\xE3o l\xEDquida superior) do precipitado (por\xE7\xE3o
-    s\xF3lida depositada no fundo de cada tubo). espacoespaco Convidamos voc\xEA
-    a analisar e comparar o volume do precipitado, entre os tubos, e classificar
-    as solu\xE7\xF5es quanto \xE0 tonicidade e osmolaridade, identificando seus efeitos
-    sobre o volume das hem\xE1cias. "
+  ptText: "Integrando Sinapse, Contra\xE7\xE3o Muscular e SNA"
+  enText: "Integrando Sinapse, Contra\xE7\xE3o Muscular e SNA"
+  esText: "Integrando Sinapse, Contra\xE7\xE3o Muscular e SNA"
 --- !u!114 &832905996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -772,7 +739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 839b0c30ecdacd043aea5317c6b7bea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: EnumBiologyOs 1
+  scene: EnumBiologyNeuronio
 --- !u!1 &1058730597
 GameObject:
   m_ObjectHideFlags: 0

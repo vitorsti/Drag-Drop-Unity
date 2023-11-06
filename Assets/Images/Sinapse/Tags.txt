@@ -1,0 +1,16 @@
+SinapseGrande
+SinapseMedia
+SinapsePequena
+Aceticolina
+Noradrenalina
+ReceptorMuscalinico
+ReceptorAlfa
+ReceptorNicotinico
+ReceptorBeta
+MusculoLisoGastro
+MusculoLisoVascular
+MusculoEsqueletico
+ContracaoMusculo
+RelaxamentoCorpo
+ContracaoCorpo
+ContracaoMusculo2

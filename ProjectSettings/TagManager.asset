@@ -24,6 +24,22 @@ TagManager:
   - isosmotica
   - hiposmotica
   - hiperosmotica
+  - SinapseMedia
+  - Aceticolina
+  - Noradrenalina
+  - ReceptorMuscalinico
+  - ReceptorAlfa
+  - ReceptorNicotinico
+  - ReceptorBeta
+  - MusculoLisoGastro
+  - MusculoLisoVascular
+  - SinapsePequena
+  - SinapseGrande
+  - MusculoEsqueletico
+  - ContracaoMusculo
+  - RelaxamentoCorpo
+  - ContracaoCorpo
+  - ContracaoMusculo2
   layers:
   - Default
   - TransparentFX
