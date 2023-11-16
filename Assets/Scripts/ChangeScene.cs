@@ -31,4 +31,9 @@ public class ChangeScene : MonoBehaviour
 
         SceneManager.LoadScene(newScene);
     }
+
+    public void GoToSceneByname(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
