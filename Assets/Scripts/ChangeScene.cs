@@ -22,4 +22,13 @@ public class ChangeScene : MonoBehaviour
     {
         this.scene = scene;
     }
+
+    public void GoToSceneByLanguage(string sceneName)
+    {
+        string languageSelected = GameManager.instance.getLanguague();
+
+        string newScene = sceneName + " " + languageSelected;
+
+        SceneManager.LoadScene(newScene);
+    }
 }

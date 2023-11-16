@@ -1,0 +1,48 @@
+DisposicaoGabarito
+
+0 5 _9 14 19 24
+
+1 X 10 15 20 25
+
+2 6 11 16 21 26
+
+3 7 12 17 22 27
+
+4 8 13 18 23 28
+
+Respostas
+
+EnchimentoPassivo
+ContracaoAtrial
+ContracaoVentricularIsovolumetrica
+Ejecao
+RelaxamentoVentricularIsovolumetrico
+
+4
+2
+1
+0
+
+Relaxado
+Contracao
+Relaxado
+Relaxado
+Relaxado
+
+Relaxado em enchimento
+Relaxado em enchimento
+Em contracao isovolumetrica
+Em contracao ejecao
+Em relaxamento isovolumetrico
+
+Abertas
+Abertas
+Fechadas
+Fechadas
+Fechadas
+
+Fechadas
+Fechadas
+Fechadas
+Abertas
+Fechadas

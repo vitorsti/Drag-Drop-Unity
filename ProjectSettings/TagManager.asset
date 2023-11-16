@@ -40,6 +40,11 @@ TagManager:
   - RelaxamentoCorpo
   - ContracaoCorpo
   - ContracaoMusculo2
+  - EnchimentoPassivo
+  - ContracaoAtrial
+  - ContracaoVentricularIsovolumetrica
+  - Ejecao
+  - RelaxamentoVentricularIsovolumetrico
   layers:
   - Default
   - TransparentFX
