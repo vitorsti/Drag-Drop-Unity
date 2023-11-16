@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 207150594}
   - component: {fileID: 207150593}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -938,12 +938,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainText: {fileID: 216046191}
-  ptText: "Este jogo educativo tem como objetivo ajudar voc\xEA a compreender a sequ\xEAncia
-    de eventos que ocorrem durante o ciclo card\xEDaco. Boa sorte!"
+  ptText: "Este jogo educacional tem o objetivo de ajudar voc\xEA a compreender a
+    sequ\xEAncia de eventos que ocorrem durante o ciclo card\xEDaco.  Boa sorte nas
+    2 fases do jogo!"
   enText: This educational game aims to help you to understand the sequence of events
-    that occur during the cardiac cycle. Good luck!
-  esText: "Este juego educativo tiene como objetivo ayudarte a comprender la secuencia
-    de eventos que ocurren durante el ciclo card\xEDaco. \xA1Buena suerte!"
+    that occur during the cardiac cycle.  Good luck in the 2 stages of the game!
+  esText: "Este juego tiene como objetivo ayudarle a entender la sequencia de eventos
+    que ocurren durante el ciclo card\xEDaco.  Buena suerte en las 2 etapas del juego!"
+  TitleText: {fileID: 224610652}
+  ptTitleText: "Quebra-Cabe\xE7a do Ciclo Card\xEDaco"
+  enTitleText: Cardiac Cycle Puzzle
+  esTitleText: "Rompecabezas del Ciclo Card\xEDaco"
+  StartText: {fileID: 475822828}
+  ptStartText: Iniciar
+  enStartText: Start
+  esStartText: Empezar
 --- !u!114 &832905996
 MonoBehaviour:
   m_ObjectHideFlags: 0

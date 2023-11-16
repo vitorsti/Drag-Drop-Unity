@@ -9,6 +9,14 @@ public class UILanguage : MonoBehaviour
 
     [SerializeField] string ptText, enText, esText;
 
+    [SerializeField] private TextMeshProUGUI TitleText;
+
+    [SerializeField] string ptTitleText, enTitleText, esTitleText;
+
+    [SerializeField] private TextMeshProUGUI StartText;
+                        
+    [SerializeField] string ptStartText, enStartText, esStartText;
+
     private void Start()
     {
         ptText = HandleText(ptText);
@@ -19,14 +27,19 @@ public class UILanguage : MonoBehaviour
         {
             case "pt":
                 mainText.text = ptText;
+                TitleText.text = ptTitleText;
+                StartText.text = ptStartText;
                 break;
-
-            case "en":
+           case "en":
                 mainText.text = enText;
+                TitleText.text = enTitleText;
+                StartText.text = enStartText;
                 break;
 
             case "es":
                 mainText.text = esText;
+                TitleText.text = esTitleText;
+                StartText.text = esStartText;
                 break;
 
             default:

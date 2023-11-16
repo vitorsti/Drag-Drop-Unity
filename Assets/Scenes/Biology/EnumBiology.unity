@@ -537,6 +537,7 @@ GameObject:
   - component: {fileID: 335557918}
   - component: {fileID: 335557919}
   - component: {fileID: 335557920}
+  - component: {fileID: 335557921}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -595,7 +596,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &335557918
 MonoBehaviour:
@@ -649,6 +650,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MovementSpeed: 0.605
+--- !u!114 &335557921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335557915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a1a91202c0bd04dacee8d57b624dcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientationText:
+  - {fileID: 1150922616}
+  ptText:
+  - "Preencha a tabela, de acordo com as fases do ciclo card\xEDaco, iniciando pela
+    fase de enchimento passivo."
+  enText:
+  - Arrange the figures, according to the sequence of the phases of the cardiac cycle,
+    starting with the passive filling phase.
+  esText:
+  - "Organize las figuras, seg\xFAn la sequencia de las fases del ciclo card\xEDaco,
+    comenzando con la fase de llenado passivo."
 --- !u!1 &354342470
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,7 +739,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &363113982
 GameObject:
@@ -1105,7 +1129,7 @@ RectTransform:
   - {fileID: 2138895028}
   - {fileID: 1798236536}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1391,7 +1415,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4000012455067272, guid: 4a8bf6bd85a09374591ebbeb96e4e6cb, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4000012455067272, guid: 4a8bf6bd85a09374591ebbeb96e4e6cb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3310,7 +3334,7 @@ RectTransform:
   - {fileID: 35757044}
   - {fileID: 1146787249}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4333,7 +4357,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4566,7 +4590,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1964359055
 GameObject:
