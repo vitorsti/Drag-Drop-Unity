@@ -1817,7 +1817,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 265, y: -19.800018}
+  m_AnchoredPosition: {x: 265, y: -19.800049}
   m_SizeDelta: {x: 118.59, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &691280911
@@ -1954,7 +1954,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 28, y: -19.800018}
+  m_AnchoredPosition: {x: 28, y: -19.800049}
   m_SizeDelta: {x: 118.59, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &695908878
@@ -2225,7 +2225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 81.2, y: 23.9}
+  m_AnchoredPosition: {x: 81.19995, y: 23.900024}
   m_SizeDelta: {x: 245.54999, y: 50}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1062842969
@@ -2862,7 +2862,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -228, y: -19.800018}
+  m_AnchoredPosition: {x: -228, y: -19.800049}
   m_SizeDelta: {x: 118.59, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1225150803
@@ -3734,7 +3734,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -477, y: -19.800018}
+  m_AnchoredPosition: {x: -477, y: -19.800049}
   m_SizeDelta: {x: 118.59, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1488418071
@@ -3869,7 +3869,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 491, y: -19.800018}
+  m_AnchoredPosition: {x: 491, y: -19.800049}
   m_SizeDelta: {x: 118.59, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1552136013
@@ -4525,7 +4525,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957249390}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &1957249392
 Behaviour:
   m_ObjectHideFlags: 0
